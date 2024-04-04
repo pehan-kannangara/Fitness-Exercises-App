@@ -1,8 +1,18 @@
-import React from 'react'
+import { Box, Typography } from '@mui/material';
+import React from 'react';
 
-const ExerciseVideos = () => {
+
+const ExerciseVideos = ({exerciseVideos, name}) => {
   return (
-    <div>ExerciseVideos</div>
+    <Box  sx={{
+      mt:{lg:'200px', sx:'20px'},
+    }} p='20px'>
+      <Typography variant='h4' mb='33px'>
+        Watch {name} exercise videos
+      </Typography>
+
+
+    </Box>
   )
 }
 

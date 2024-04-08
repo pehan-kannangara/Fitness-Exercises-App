@@ -4,6 +4,7 @@ import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu';
 
 import BodyPart from './BodyPart';
 import ExerciseCard from './ExerciseCard';
+
 import LeftArrowIcon from './pics/left-arrow.png';
 import RightArrowIcon from './pics/right-arrow.png';
 
